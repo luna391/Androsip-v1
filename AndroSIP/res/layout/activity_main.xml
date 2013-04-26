@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dark">
+    
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="SIP URI : "
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:gravity="center"
+android:textSize="18sp"  
+/>
+<EditText
+android:id="@+id/sip"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="User@domain/IP[:port]"
+android:inputType="textEmailAddress"
+/>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="PASSWORD : "
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:gravity="center"
+android:textSize="18sp"  
+/>
+<EditText
+android:id="@+id/password"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:inputType="textPassword"
+/>
+<Button
+android:id="@+id/bouton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:layout_gravity="center"
+android:background="@drawable/bb"
+android:text="REGISTER"
+android:padding="16dip" 
+android:textColor="#FFFFFF" 
+/>
+</LinearLayout>

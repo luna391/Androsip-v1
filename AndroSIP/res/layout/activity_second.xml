@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dark">
+ 
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal">"
+        <Button
+android:id="@+id/dialer"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="4dip" 
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:text="Call"
+android:background="@android:color/transparent"
+android:drawableTop="@drawable/call"
+android:textColor="#FFFFFF" 
+/>
+<Button
+android:id="@+id/log"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="4dip" 
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:text="Logs"
+android:background="@android:color/transparent"
+android:drawableTop="@drawable/log"
+android:textColor="#FFFFFF" 
+/>
+         <Button
+android:id="@+id/contact"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="4dip" 
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:text="Contacts"
+android:background="@android:color/transparent"
+android:drawableTop="@drawable/cont"
+android:textColor="#FFFFFF" 
+/>
+
+<Button
+android:id="@+id/config"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="4dip" 
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:text="Settings"
+android:background="@android:color/transparent"
+android:drawableTop="@drawable/conf" 
+android:textColor="#FFFFFF" 
+/>  
+    </LinearLayout>
+</LinearLayout>

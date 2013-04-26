@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androsip"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/phone1"
+        android:label="@string/app_name"
+         android:theme="@style/AppTheme"
+        >
+           <!-- android:theme="@android:style/Theme.NoTitleBar" --> 
+        <activity
+            android:name="com.example.androsip.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androsip.Activity1"
+            android:label="@string/title_activity_activity1" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.CallActivity"
+            android:label="@string/title_activity_call" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.LogActivity"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.CtcViewActivity"
+            android:label="@string/title_activity_ctc_view" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.ContactViewActivity"
+            android:label="@string/title_activity_contact_view" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.ListDBActivity"
+            android:label="@string/title_activity_list_db" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.AddconActivity"
+            android:label="@string/title_activity_addcon" >
+        </activity>
+        <activity
+            android:name="com.example.androsip.ModifconActivity"
+            android:label="@string/title_activity_modifcon" >
+        </activity>
+    </application>
+
+</manifest>

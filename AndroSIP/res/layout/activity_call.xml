@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dark"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter the phone number :"
+    android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:textSize="20sp"
+android:layout_marginBottom="20sp"  
+    />
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtNumber"
+android:inputType="phone"
+/>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Dial"
+android:id="@+id/btnDial"
+android:layout_gravity="center"
+android:background="@android:color/transparent"
+android:drawableTop="@drawable/dial"
+android:padding="16dip" 
+/>
+</LinearLayout>
